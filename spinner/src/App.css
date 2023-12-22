@@ -1,0 +1,47 @@
+#weel {
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  border-radius: 50%;
+  animation: my_rotate 5s infinite;
+  overflow: hidden;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+.links {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  color: blue;
+}
+.main_c {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.login_button{
+width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+.login_button button{
+  background-color: blueviolet;
+  width: 90px;
+  height: 45px;
+  border-radius: 25px;
+}
+.inner {
+  /* width: 100%;
+  height: 100%; */
+  /* border-radius: 50%; */
+  border: 2px solid red;
+  background-color: aqua;
+}
+@keyframes my_rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
